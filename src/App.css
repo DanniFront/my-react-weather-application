@@ -1,10 +1,14 @@
 body {
   font-family: Arial, sans-serif;
 }
+
 .App h1 {
   text-align: center;
+  color: #2c3e50;
 }
 
 .App footer {
   font-size: 11px;
+  text-align: center;
+  padding: 10px;
 }

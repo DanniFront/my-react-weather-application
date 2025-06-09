@@ -2,12 +2,55 @@ body {
   font-family: Arial, sans-serif;
 }
 .Weather {
-  border: 1px solid black;
-  width: 75%;
+  border: 1px solid #a3cfff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #f0f8ff;
+  max-width: 600px;
   margin: 0 auto;
+}
+
+.form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.Weather h2 {
+  color: #2c3e50;
+  text-align: center;
 }
 
 .Weather ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #1f3b73;
+}
+
+.Weather li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.col-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.border-start {
+  border-left: 2px solid #ccc;
 }
