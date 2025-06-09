@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.App h1 {
+  text-align: center;
+}
+
+.App footer {
+  font-size: 11px;
+}

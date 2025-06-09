@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.Weather {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+}
