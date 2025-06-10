@@ -34,9 +34,10 @@ body {
   font-size: 1rem;
 }
 
-.weather-icon {
+.Weather canvas {
   width: 80px;
   height: 80px;
+  margin-right: 20px;
 }
 
 .temperature {
