@@ -8,7 +8,7 @@ export default function App() {
       {" "}
       <div className="container mt-5">
         <h1>Weather App</h1>
-        <Weather />
+        <Weather defaultCity="Sydney" />
         <footer>
           This project was coded by{" "}
           <a
